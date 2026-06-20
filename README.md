@@ -77,8 +77,7 @@ Classify Indonesian text into **Positive / Neutral / Negative** sentiment using 
 ```
 nolimit-ds-test-[nama]/
 ├── nolimit_sentiment_analysis.ipynb   # Main Colab notebook
-├── sample_data/
-│   └── sample_input.csv               # 20 sample texts for local testing
+├── sample_input.csv                   # 20 sample texts for local testing
 ├── flowchart.png                      # End-to-end pipeline diagram
 ├── requirements.txt                   # Python dependencies
 └── README.md                          # This file
