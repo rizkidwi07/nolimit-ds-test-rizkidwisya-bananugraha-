@@ -113,17 +113,6 @@ jupyter notebook nolimit_sentiment_analysis.ipynb
 
 > ⚠️ **GPU sangat direkomendasikan** untuk fine-tuning. Pada CPU, proses training ~3x lebih lama.
 
----
-
-## 📈 Expected Results
-
-| Metric | Expected |
-|--------|----------|
-| Accuracy (Test) | ~87–92% |
-| F1-Score Macro | ~85–90% |
-| Inference Latency | <100ms/text (GPU) |
-
----
 
 ## 🔄 Contoh Output
 
