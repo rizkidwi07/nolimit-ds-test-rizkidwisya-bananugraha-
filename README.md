@@ -1,7 +1,6 @@
 # 🇮🇩 Indonesian Sentiment Analysis
 ### nolimit.id — Data Scientist Technical Test
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/nolimit-ds-test-YOUR_NAME/blob/main/nolimit_sentiment_analysis.ipynb)
 
 ---
 
@@ -47,25 +46,25 @@ Classify Indonesian text into **Positive / Neutral / Negative** sentiment using 
 ┌─────────────────────────────────────────────────────────────────┐
 │                     PIPELINE END-TO-END                         │
 ├─────────────────────────────────────────────────────────────────┤
-│                                                                   │
+│                                                                 │
 │  📥 Raw Data (SmSA)                                             │
-│       │                                                           │
-│       ▼                                                           │
+│       │                                                         │
+│       ▼                                                         │
 │  🔧 Preprocessing (tokenization, padding, truncation@128)       │
-│       │                                                           │
-│       ├──────────────────────────┐                               │
-│       ▼                          ▼                               │
-│  🤖 IndoBERT Fine-tune     📐 Sentence Embeddings               │
+│       │                                                         │
+│       ├──────────────────────────┐                              │
+│       ▼                          ▼                              │
+│  🤖 IndoBERT Fine-tune     📐 Sentence Embeddings              │
 │  (Classification Head)     (MiniLM-L12-v2)                      │
-│       │                          │                               │
-│       ▼                          ▼                               │
-│  📊 Predict Sentiment      🗂️ FAISS Index                       │
-│  (pos/neu/neg + conf%)     (1000-vector corpus)                  │
-│       │                          │                               │
-│       └──────────────────────────┘                               │
-│                    │                                              │
-│                    ▼                                              │
-│  📋 Output: Label + Confidence + Similar Examples               │
+│       │                          │                              │
+│       ▼                          ▼                              │
+│  📊 Predict Sentiment      🗂️ FAISS Index                      │
+│  (pos/neu/neg + conf%)     (1000-vector corpus)                 │
+│       │                          │                              │
+│       └──────────────────────────┘                              │
+│                    │                                            │
+│                    ▼                                            │
+│  📋 Output: Label + Confidence + Similar Examples               |
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -152,14 +151,6 @@ See `requirements.txt` — key packages:
 - `sentence-transformers>=2.7`
 - `faiss-cpu>=1.8`
 - `torch>=2.2`
-
----
-
-## 📬 Submission
-
-**GitHub Repo:** `https://github.com/YOUR_USERNAME/nolimit-ds-test-YOUR_NAME`  
-**Email:** jobs@nolimit.id  
-**Subject:** `nolimit-ds-test-YOUR_NAME`
 
 ---
 
